@@ -1,14 +1,7 @@
 var express = require('express')
 var app = express()
-var bodyParser = require('body-parser')
 var exec = require('child_process').exec;
 
-
-// parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
-
-// parse application/json
-app.use(bodyParser.json())
 
 app.post('/push', function (req, res) {
   console.log(req.get('X-GitHub-Event'))
