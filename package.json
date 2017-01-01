@@ -1,0 +1,24 @@
+{
+  "name": "auto-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zizyzhang/auto-build-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zizyzhang/auto-build-scripts/issues"
+  },
+  "homepage": "https://github.com/zizyzhang/auto-build-scripts#readme"
+}
